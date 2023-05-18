@@ -10,8 +10,10 @@ document.addEventListener("DOMContentLoaded", addEvents)
 
 
 /* Get from localStorage */
-text.innerHTML = `${window.localStorage.getItem("text")}`
-taskList.innerHTML = `${window.localStorage.getItem("tasks")}`
+if (window.localStorage.getItem("text") != null)
+    text.innerHTML = `${window.localStorage.getItem("text")}`
+if (window.localStorage.getItem("tasks") != null)
+    taskList.innerHTML = `${window.localStorage.getItem("tasks")}`
 
 /* Save to localStorage*/
 text.addEventListener("input", e => {
