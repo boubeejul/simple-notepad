@@ -1,5 +1,5 @@
 # 📝 Simple Notepad
-Uma página para realizar anotações e criar lista de tarefas pelo browser
+Página para realizar anotações simples usando HTML, CSS e Javascript
 
 ## Funcionalidades
 - Área de rascunho editável, aceitando texto e imagens
