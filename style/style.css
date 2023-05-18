@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    background-color: #f7f0ff;
+    font-family: 'Roboto', sans-serif;
+    color: #3e3e3e;
+}
+section {
+    background-image: linear-gradient(120deg, #c6b2ff 30%, #ffb6e2 70%);
+    align-self: self-start;
+    padding: 1px;
+}
+button {
+    background-color: #fff;
+    border: 1px solid #8f8f8f;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+#textarea-title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+#container {
+    width: 100%;
+}
+#time {
+    text-align: center;
+    padding-bottom: 30px;
+}
+#hour {
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
+}
+#date {
+    font-size: 14px;
+}
+#moon, #sun {
+    width: 35px;
+    height: 35px;;
+}
+#notes {
+    margin: auto;
+    width: 1000px;
+    /*margin-top: 100px;*/
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#textarea {
+    background-color: #fff;
+    width: 600px;
+    min-height: 115px;
+    padding: 10px;
+    margin-top: 3px;
+    align-self: self-start;
+}
+#textarea-input {
+    font-size: 15px;
+    padding: 10px;
+    overflow: overlay;
+}
+#textarea-input img {
+    width: 100%;
+}
+#textarea-input span {
+    background-color: none;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+#textarea-input:focus {
+    border: 1px solid #ebebeb;
+    border-top: none;
+}
+#todolist {
+    background-color: #fff;
+    width: 300px;
+    min-height: 100px;
+    margin-top: 3px;
+    padding: 10px;
+    align-self: self-start;
+}
+#todolist-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#todolist-options {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+#todolist-tasklist {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+#textarea, #todolist, section {
+    border-radius: 10px;
+}
+
+
+.todolist-task-remove, .todolist-task-edit {
+    width: 18px;
+    height: 18px;
+}
+.todolist-icon, .todolist-task-icon{
+    width: 18px;
+    padding: 2px;
+}
+.todolist-task-icon {
+    width: 12px;
+}
+.todolist-task-options {
+    position: absolute;
+    display: inline;
+    visibility: hidden;
+}
+.todolist-note {
+    width: 15px;
+    height: 15px;
+}
+
+.task-text {
+    padding: 5px;
+    margin-left: 5px;
+}
+.task-text:focus {
+    color: #000;
+    background-color: #f3f3f3;
+}
+.task-text:focus, #textarea:focus, #textarea-input:focus {
+    outline: none;
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #c6b2ff;
+    border-radius: 2px;
+}
+input[type="checkbox"]::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #c6b2ff;
+    display: none;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+input[type="checkbox"]:hover {
+    border-color: #8f8f8f;
+}
+input[type="checkbox"]:checked::before {
+    display: block;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="./style/assets/notebook.svg">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/script.js" defer></script>
+    <title>Notas</title>
+</head>
+
+<body>
+
+    <main>
+        <div id="container">
+
+            <div id="notes">
+
+                <div id="right-side">
+
+                    <div id="time">
+                        <div id="time-icon"></div>
+                        <h3 id="hour"></h3>
+                        <h4 id="date"></h4>
+                    </div>
+                    <section>
+                        <div id="todolist">
+
+                            <div id="todolist-head">
+                                <h3 id="todo-title">✅ Lista de tarefas</h3>
+
+                                <div id="todolist-options">
+                                    <button id="todolist-options-add">
+                                        <img src="./style/assets/plus.svg" alt="símbolo de mais" class="todolist-icon"
+                                            title="Adicionar nova tarefa">
+                                    </button>
+                                    <button id="todolist-options-remove">
+                                        <img src="./style/assets/trashcan.svg" alt="ícone de lixeira"
+                                            class="todolist-icon" title="Apagar todas as tarefas">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="todolist-tasklist">
+                                <div class="todolist-task"><input onclick="saveCheckedTask()" type="checkbox"
+                                        class="todolist-note" name="task"><span class="task-text" contenteditable>Estudar Javascript</span>
+                                    <div class="todolist-task-options"><button class="todolist-task-remove"><img
+                                                src="./style/assets/cross.svg" alt="símbolo de negação"
+                                                class="todolist-task-icon" title="Apagar tarefa">
+                                        </button></div>
+                                </div>
+                                <div class="todolist-task"><input onclick="saveCheckedTask()" type="checkbox"
+                                        class="todolist-note" name="task"><span class="task-text" contenteditable>Organizar Semana</span>
+                                    <div class="todolist-task-options"><button class="todolist-task-remove"><img
+                                                src="./style/assets/cross.svg" alt="símbolo de negação"
+                                                class="todolist-task-icon" title="Apagar tarefa">
+                                        </button></div>
+                                </div>
+                                <div class="todolist-task"><input onclick="saveCheckedTask()" type="checkbox"
+                                        class="todolist-note" name="task"><span class="task-text" contenteditable>Nova
+                                        Tarefa</span>
+                                    <div class="todolist-task-options"><button class="todolist-task-remove"><img
+                                                src="./style/assets/cross.svg" alt="símbolo de negação"
+                                                class="todolist-task-icon" title="Apagar tarefa">
+                                        </button></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                </div>
+
+                <div id="left-side">
+                    <section>
+                        <div id="textarea">
+
+                            <h3 id="textarea-title">📝 Rascunho</h3>
+
+                            <div id="textarea-input" contenteditable="true" autofocus>
+                               <div>📍Links</div>
+                               <div>https://github.com/<br></div>
+                               <div>https://www.youtube.com/</div>
+                               <div><br></div>
+                               <div>➡️ Anotação 1</div>
+                               <div><span style="color: rgb(62, 62, 62); font-family: Roboto, sans-serif; font-size: 15px;">➡️ Anotação 2</span><br></div>
+                               <div><span style="color: rgb(62, 62, 62); font-family: Roboto, sans-serif; font-size: 15px;">➡️ Anotação 3</span></div>
+                               <div><br></div><div><img src="./style/assets/gandalf.gif" alt="Gandalf Meme GIFs | Tenor"><br></div>
+                               <div><br></div>
+                               <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☆*: .｡. o(≧▽≦)o .｡.:*☆</div></div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
