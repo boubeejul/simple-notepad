@@ -3,13 +3,8 @@ Página para realizar anotações simples usando HTML, CSS e Javascript
 
 ## Funcionalidades
 - Área de rascunho editável, aceitando texto e imagens
-- Criar lista de tarefas pequenas editáveis, com opção de apagá-las individualmente ou a lista inteira
+- Criar tarefas pequenas editáveis, com opção de apagá-las individualmente ou a lista inteira
 - Salvamento via browser (localStorage)
-
-## Prévia
-| Lista de tarefas | Área de rascunho|
-:-----------------:|:----------------:
-|![]()|![]()|
 
 ## Foram utilizados
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
