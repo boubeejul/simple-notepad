@@ -6,6 +6,11 @@ Página para realizar anotações simples usando HTML, CSS e Javascript
 - Criar lista de tarefas pequenas editáveis, com opção de apagá-las individualmente ou a lista inteira
 - Salvamento via browser (localStorage)
 
+## Prévia
+| Lista de tarefas | Área de rascunho|
+:-----------------:|:----------------:
+|![]()|![]()|
+
 ## Foram utilizados
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
